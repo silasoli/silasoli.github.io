@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Silas Oliveira Rodrigues Dos Santos</title>
+    <link rel="stylesheet" type="text/css" href="style/homePage.css" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <!-- navBar -->
+    <nav id="navBar">
+        <ul>
+            <li><a id="navTitle">Bem Vindo</a></li>
+        </ul>
+    </nav>
+    <!-- home page -->
+    <section id="gradient">
+        <section id="mainSection">
+            <button onclick="startBar()" type="button" id="openBtn" class="btn">Abrir arquivo</button>
+        </section>
+        <section id="progressBar">
+            <article id="progresstitle">
+                <h3>Carregando arquivo ...</h3>
+            </article>
+            <article id="myProgress">
+                <article id="myBar">
+                    <article id="percentage">10%</article>
+                </article>
+            </article>
+        </section>
+    </section>
+    <!-- curriculum page -->
+    <section id="curriculumPage">
+        <audio id="song" loop controls>
+            <source src="music/trilha.ogg" type="audio/ogg">
+            <source src="music/trilha.mp3" type="audio/mpeg">
+        </audio>
+        <button onclick="closeFile()" type="button" id="closeBtn" class="btn">Fechar arquivo</button>
+        <section id="backCurriculumPage"></section>
+        <article id="title">
+            <h3 id="nameTitle">Silas Oliveira Rodrigues Dos Santos</h3>
+        </article>
+        <article id="informationHeader">
+            <ul class="ulHeader">
+                <li id="ageMarital">Solteiro, 19 anos</li>
+                <li id="address">Rua: Campos Sales, 176, Feira de Santana (BA)</li>
+                <li id="number">
+                    <a href="https://api.whatsapp.com/send?phone=5575991383124" target="_blank">(75) 99138-3124,</a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=silasoliv39@gmail.com"
+                        target="_blank">silasoliv39@gmail.com</a>
+                </li>
+                <li id="linkedin"><a href="https://www.linkedin.com/in/silasoli/" target="_blank">Linkedin:
+                        Silasoli</a>
+                </li>
+            </ul>
+        </article>
+        <article id="objective">
+            <article class="form">
+                <h3 id="objectiveTitle" class="title">Objetivo</h3>
+                <button onclick="hiddenContent('objectiveText')" type="button" class="btnHiddenArea"></button>
+            </article>
+            <p id="objectiveText" class="text">
+                No meu atual momento profissional estou à procura do meu primeiro emprego na área.<br>
+                Desejo aprender e desenvolver meus conhecimentos como desenvolvedor júnior, assim
+                como, almejo mostrar os resultados dos meus estudos e contribuir sempre que possível.
+            </p>
+        </article>
+        <article id="professionalProfile">
+            <article class="form">
+                <h3 id="ppTitle" class="title">Perfil profissional</h3>
+                <button onclick="hiddenContent('ppText')" type="button" class="btnHiddenArea"></button>
+            </article>
+            <p id="ppText" class="text">
+                Trabalho informalmente desde os 15 anos prestando serviços relacionados à Tecnologia<br>
+                da informação, &nbsp; Design gráfico, Informática &nbsp; Administrativa e mais &nbsp; recentemente
+                &nbsp;com<br>
+                Desenvolvimento de sistemas. Me considerado um profissional objetivo, comunicativo e
+                otimista.
+            </p>
+        </article>
+        <article id="academicFormation">
+            <article class="form">
+                <h3 id="afTitle" class="title">Formação acadêmica</h3>
+                <button onclick="hiddenContent('ulAcademic')" type="button" class="btnHiddenArea"></button>
+            </article>
+            <ul id="ulAcademic" class="ulCurriculum">
+                <li id="school">Ensino Médio Completo: Centro Integrado De Educação Assis Chateaubriand
+                    (2018)</li>
+                <li id="technicaSchool">Curso Técnico: Desenvolvimento de sistemas (SENAI) (2019 - 2020)</li>
+                <li id="college">Ensino Superior em andamento: Sistemas de informação (FTC) (2021)</li>
+            </ul>
+        </article>
+        <article id="complementaryActivities">
+            <article class="form">
+                <h3 id="caTitle" class="title">Atividades Complementares</h3>
+                <button onclick="hiddenContent('ulComplementary')" type="button" class="btnHiddenArea"></button>
+            </article>
+            <ul id="ulComplementary" class="ulCurriculum">
+                <li id="">Curso profissionalizante: Digitação avançada (2015)</li>
+                <li id="">Curso profissionalizante: Designer Gráfico (2016-2017)</li>
+                <li id="">Curso profissionalizante: Operador de computador (2017-2018)</li>
+                <li id="">Curso profissionalizante: Suporte técnico em TI (2018)</li>
+            </ul>
+        </article>
+        <article id="professionalExperience">
+            <article class="form">
+                <h3 id="peTitle" class="title">Experiência Profissional</h3>
+                <button onclick="hiddenContent('ulProfessional')" type="button" class="btnHiddenArea"></button>
+            </article>
+            <ul id="ulProfessional" class="ulCurriculum">
+                <li id="">2018 - Desenvolvimento de catálogo de produtos para a empresa Flor de Liz
+                </li>
+                <li id="">2018 - 2020 Auxiliar administrativo na empresa Bahia Papelaria como Jovem
+                    Aprendiz</li>
+                <li id="">2020 - Desenvolvimento de Sistema de gestão de clientes e contratos da
+                    rastreadora “JmCar”.</li>
+            </ul>
+        </article>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <a href="https://github.com/Silasoli" target="_blank">Desenvolvido por Silas Santos</a>
+    </footer>
+</body>
+
+</html>
+<script type="text/javascript" src="style/homePage.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
