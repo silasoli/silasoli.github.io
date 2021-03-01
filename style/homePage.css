@@ -1,0 +1,275 @@
+/* Body styling */
+body {
+    background-color: #46237A;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+    background-color: #000000;
+    padding: 0px;
+}
+/* NavBar styling */
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+    background-color: #111;
+}
+    
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    text-decoration: none;
+}
+/* Gradient definition */  
+#gradient {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+/* Main section position */
+#mainSection {
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+}
+/* Button styling */
+.btn {
+    font: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    text-decoration: none;
+    text-align:center;
+    color: white;
+    border: 0;
+    border-radius: 20px 20px 20px 20px;
+    outline:none;	
+}
+
+#openBtn {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+    margin: 0 auto;
+    width:120px;  
+    height:50px;	
+    background-color: #3DDC97;
+}
+
+#openBtn:hover {
+    background-color: #FF495C;
+}
+/* Defining and styling progress bar */
+#progressBar {
+    display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 500px;
+}
+
+#progresstitle {
+    font: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    text-decoration: none;
+    color: white;
+    display: none;
+}
+
+#myProgress {
+    margin: 0 auto;
+    width: 20%;
+    background-color:#111;
+    border-style: solid;
+    border-radius: 20px 20px 20px 20px;
+    visibility: hidden;
+}
+
+#myBar {
+    visibility: hidden;
+    width: 10%;
+    height: 30px;
+    background-color: #FF495C;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border: 0;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#percentage {
+    text-align: center; 
+    line-height: 30px; 
+    color: white;
+}
+/* curriculum page creation */
+#curriculumPage {
+    width: 690px;
+    display: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+#song {
+    width: 15%;
+    float:right;
+    position: fixed;
+    margin-bottom: 60px;
+    bottom: 0;
+    right: 10px;
+    opacity: 10%;
+    outline: none;
+}
+
+#song:hover {
+    opacity: 50%;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color:white;
+}
+
+#closeBtn { 
+    width:100px;  
+    height:40px;	
+    background-color:red;
+    opacity: 40%;
+    position:absolute;
+	top: 60px;
+	right:10px;
+}
+
+#closeBtn:hover {
+    opacity: 90%;
+}
+
+#backCurriculumPage {
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background: url(../img/back.jpeg) no-repeat center;
+    background-size: cover;
+    opacity: 40%;
+}
+
+#nameTitle {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+#informationHeader {
+    margin-bottom: 10px;
+}
+
+#informationHeader a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+}
+
+.ulCurriculum,.ulHeader {
+    text-align: left;
+    list-style-type: none;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.form {
+    border-color:white;
+    border-style: solid;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px; 
+    text-align:left;
+    margin-bottom: 5px;
+}
+
+.title {
+    display:inline;
+}
+
+.btnHiddenArea {
+    float: right;
+    margin-top: -4px;
+    width: 32px;
+    height: 32px;
+    border: 0px;
+    text-decoration: none;
+    text-align:center;
+    background-color: transparent;	
+    background-image: url(../img/seta.png);
+    outline:none;
+    border-radius: 20px;
+}
+
+.btnHiddenArea:hover {
+    background-color: black;
+    opacity: 50%;
+}
+
+.text {
+    text-align: left;
+}
+
+.text,.ulCurriculum {
+    display: none;
+}
+
+#professionalExperience {
+    margin-bottom: 60px;
+}
+/* footer styling */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+}  
+
