@@ -80,7 +80,7 @@ nav li a {
     display: flex;
 	justify-content: center;
 	flex-direction: column;
-	height: 1100px;
+	height: 1000px;
 }
 
 #progresstitle {
