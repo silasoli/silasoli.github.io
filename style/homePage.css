@@ -64,7 +64,7 @@ nav li a {
 
 #openBtn {
     position: relative;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%); 
     margin: 0 auto;
     width:120px;  
@@ -80,7 +80,7 @@ nav li a {
     display: flex;
 	justify-content: center;
 	flex-direction: column;
-	height: 500px;
+	height: 800px;
 }
 
 #progresstitle {
